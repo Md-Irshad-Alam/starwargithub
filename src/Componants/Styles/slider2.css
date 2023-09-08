@@ -1,0 +1,139 @@
+
+.slider2-wrap{
+    width: 90vw;
+    margin: auto;
+    margin-top: 3rem;
+
+
+}
+.slider2-body{
+   width: 100%;
+ 
+}
+.slider2-content{
+    background-color: rgb(35, 35, 35);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    grid-gap: 10px;
+}
+#slider2-img{
+    width: 102vw;
+    height: 19vh;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    box-shadow: rgb(173 155 155 / 24%) 0px 3px 8px;
+  
+}
+
+.footer-box2{
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+  .first2{
+    width: 55%;
+    background-color: red;
+    height: 10px;
+    background: linear-gradient(-45deg, transparent 15%, #282828 10%);
+    /* background-size: 100% 20px; */
+   
+}
+.second2{
+    width: 20%;
+    background-color: rgb(56, 154, 93);
+    height: 10px;
+    background: linear-gradient(45deg, transparent 30%, #272727 10%)
+    
+}
+.slider-2-lbtn{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(63, 62, 62);
+    border-radius: 50%;
+    /* position: absolute;
+    left: 2%;
+    bottom: 37%;
+    top: 8%; */
+    font-size: 3rem;
+    margin: auto;
+    z-index: 99; 
+}
+.slider-2-rbtn{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(63, 62, 62);
+    border-radius: 50%;
+    /* position: absolute;
+    right: 2%;
+    bottom: 37%;
+    top: 8%; */
+    font-size: 3rem;
+    margin: auto;
+    z-index: 99; 
+}
+    
+    @media only screen and (max-width: 600px) {
+        .slider2-body{
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+        }
+        #slider2-img{
+            width: 100%;
+            height: 27vh;
+            object-fit: cover;
+        }
+        .slider2-content{
+            background-color: rgb(35, 35, 35);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            grid-gap: 10px;
+            height: 33vh;
+        }
+        
+        .title-wraper{
+            text-align: left;
+            padding-left: 10px;
+            font-size: 18px;
+           
+           height: inherit;
+        }
+        .body-page2 {
+            width: 90vw;
+            font-size: 18px;
+            row-gap: 20px;
+            margin-top: 20px;
+             
+        }
+        .content-body-page2{
+            width: inherit;
+            height: 20vh;
+            background: #050505;
+        }
+        .body-page2 img{
+            width: 35vw;
+            height: 20vh;
+            object-fit: cover;
+        }
+
+        .footer-box2{
+            display: flex;
+            justify-content: space-between;
+          
+        
+        }
+          .first2{
+            width: 55%;
+            background-color: red;
+            height: 10px;
+            background: linear-gradient(-45deg, transparent 15%, #282828 10%);
+            /* background-size: 100% 20px; */
+           
+        }
+        .second2{
+            width: 20%;
+            background-color: rgb(56, 154, 93);
+            height: 10px;
+            background: linear-gradient(45deg, transparent 30%, #272727 10%)
+            
+        }
+    }

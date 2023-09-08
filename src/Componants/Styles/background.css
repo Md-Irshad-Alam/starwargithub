@@ -1,0 +1,108 @@
+
+.page2-container{
+  /* height: 100vh; */
+}
+.overlay-content-body{
+  /* display: flex; */
+  height: 101vh;
+  
+}
+.overlay-content{
+  width: 52vw; 
+  position: relative;
+  bottom: 78vh;
+  height: 34vh;
+} 
+
+.background-img{
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/who-is-ahsoka-spheres-hero-desktop_472ef009.jpeg?region=0,0,2048,878');
+    background-position: 0%; 
+    background-repeat: no-repeat;
+    background-size: 100% 100vmax;
+    background-position: bottom;
+    height: 100vh;
+    background-color: rgb(63, 63, 63);
+    
+  }
+
+
+  .content-body-page2 {
+    width: 90%;
+  }
+  .content-body-page2 img{
+        width: 20vw;
+        /* height: 20vh; */
+        object-fit: contain;
+
+  }
+   
+  .title-wraper{
+    background-color: #1d1e1f;
+    height: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    color: white;
+  }
+
+  .footer-box{
+    display: flex;
+    position: relative;
+    top: 50%;
+    justify-content: space-between;
+  
+
+}
+  .first{
+    width: 55%;
+    background-color: red;
+    height: 1rem;
+    background: linear-gradient(-45deg, transparent 15%, #282828 10%);
+    /* background-size: 100% 20px; */
+   
+}
+.second{
+    width: 20%;
+    background-color: rgb(56, 154, 93);
+    height: 1rem;
+    background: linear-gradient(45deg, transparent 30%, #272727 10%);
+
+    
+}
+@media only screen and (max-width: 600px) {
+  .body-page2{
+    margin-top: 20px;
+    position: relative;
+    bottom: 30%;
+    top: 0%;
+  }
+  .background-img{
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/ahsoka-tentpole-mobile-1_4b898aaf_f99465bd.jpeg?region=0,0,1024,960&width=960');
+    background-size: 100% 100vmax;
+    background-position: center;
+    height: 50vh;
+    
+  }
+  .overlay-content{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    position: relative;
+    bottom:0;
+   
+  }
+  .morebtn-cont{
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+  }
+  .overlay-content p{
+    font-size: 18px;
+  }
+  .footer-box{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+  }
+}

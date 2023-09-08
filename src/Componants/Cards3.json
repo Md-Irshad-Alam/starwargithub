@@ -1,0 +1,262 @@
+[
+    {
+        "id": 10,
+        "name": "Obi-Wan Kenobi",
+        "height": 1.82,
+        "mass": 81,
+        "gender": "male",
+        "homeworld": "stewjon",
+        "wiki": "http://starwars.wikia.com/wiki/Obi-Wan_Kenobi",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/4/4e/ObiWanHS-SWE.jpg",
+        "born": -57,
+        "died": 0,
+        "diedLocation": "death star, alderaan system",
+        "species": "human",
+        "hairColor": "light brown, later white",
+        "eyeColor": "gray-blue",
+        "skinColor": "light",
+        "affiliations": [
+          "Jedi Order",
+          "Jedi High Council",
+          "Galactic Republic",
+          "212th Attack Battalion",
+          "Alliance to Restore the Republic"
+        ],
+        "masters": [
+          "Qui-Gon Jinn",
+          "Yoda"
+        ],
+        "apprentices": [
+          "Anakin Skywalker",
+          "Luke Skywalker"
+        ],
+        "formerAffiliations": []
+      },
+      {
+        "id": 11,
+        "name": "Anakin Skywalker",
+        "height": 2.03,
+        "mass": 120,
+        "gender": "male",
+        "homeworld": "tatooine",
+        "wiki": "http://starwars.wikia.com/wiki/Anakin_Skywalker",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/6/6f/Anakin_Skywalker_RotS.png",
+        "born": -41,
+        "died": 4,
+        "diedLocation": "death star ii, endor system",
+        "species": "human",
+        "hairColor": "blond",
+        "eyeColor": "blue, yellow (dark side)",
+        "skinColor": "light, later pale",
+        "cybernetics": "Cybernetic right arm; later prosthetic arms and legs, and a life-support system",
+        "affiliations": [
+          "501st Legion",
+          "Sith",
+          "Galactic Empire",
+          "Imperial High Command"
+        ],
+        "masters": [
+          "Qui-Gon Jinn (informal Jedi Master)",
+          "Obi-Wan Kenobi (Jedi Master)",
+          "Darth Sidious (Sith Master)",
+          "Yoda (Force spirit teacher)"
+        ],
+        "apprentices": [
+          "Ahsoka Tano (Padawan)",
+          "Inquisitorius"
+        ],
+        "formerAffiliations": [
+          "Jedi Order",
+          "Jedi High Council",
+          "Galactic Republic"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Wilhuff Tarkin",
+        "height": 1.82,
+        "gender": "male",
+        "homeworld": "eriadu",
+        "wiki": "http://starwars.wikia.com/wiki/Wilhuff_Tarkin",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/c/c1/Tarkininfobox.jpg",
+        "born": -64,
+        "died": 0,
+        "diedLocation": " death star, yavin system",
+        "species": "human",
+        "hairColor": "auburn, later gray",
+        "eyeColor": "gray-blue",
+        "skinColor": "light",
+        "affiliations": [
+          "Galactic Republic",
+          "Sullust Sector Spacefarers Academy",
+          "Judicial Forces",
+          "Republic Navy",
+          "Strategic Advisory Cell",
+          "Outland Regions Security Force",
+          "Outland's anti-pirate taskforce",
+          "Galactic Empire",
+          "Battle Station Command",
+          "Imperial Officer Corps",
+          "Imperial Navy",
+          "Tarkin Initiative"
+        ],
+        "formerAffiliations": []
+      },
+      {
+        "id": 13,
+        "name": "Chewbacca",
+        "height": 2.28,
+        "mass": 112,
+        "gender": "male",
+        "homeworld": "kashyyyk",
+        "wiki": "http://starwars.wikia.com/wiki/Chewbacca",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/4/48/Chewbacca_TLJ.png",
+        "born": -200,
+        "bornLocation": "kashyyyk",
+        "species": "wookiee",
+        "hairColor": "brown",
+        "eyeColor": "blue",
+        "affiliations": [
+          "Galactic Republic",
+          "Alliance to Restore the Republic",
+          "Leia Organa's team",
+          "Pathfinders",
+          "Endor strike team",
+          "Bright Tree tribe",
+          "New Republic",
+          "Resistance"
+        ],
+        "formerAffiliations": []
+      },
+      {
+        "id": 14,
+        "name": "Han Solo",
+        "height": 1.8,
+        "mass": 80,
+        "gender": "male",
+        "homeworld": "corellia",
+        "wiki": "http://starwars.wikia.com/wiki/Han_Solo",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/e/e2/TFAHanSolo.png",
+        "born": -29,
+        "bornLocation": "corellia",
+        "died": 34,
+        "diedLocation": "starkiller base",
+        "species": "human",
+        "hairColor": "brown, later gray",
+        "eyeColor": "hazel",
+        "skinColor": "light",
+        "affiliations": [
+          "Galactic Empire",
+          "Jabba Desilijic Tiure's criminal empire",
+          "Alliance to Restore the Republic",
+          "Leia Organa's team",
+          "Endor strike team",
+          "Kingdom of Han",
+          "Bright Tree tribe",
+          "New Republic",
+          "New Republic Pilots Commission",
+          "Han Solo's shipping company",
+          "Resistance"
+        ],
+        "formerAffiliations": []
+      },
+      {
+        "id": 15,
+        "name": "Greedo",
+        "height": 1.74,
+        "mass": 74,
+        "gender": "male",
+        "homeworld": [
+          "Rodia",
+          "Tatooine"
+        ],
+        "wiki": "http://starwars.wikia.com/wiki/Greedo",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/c/c6/Greedo.jpg",
+        "died": 0,
+        "diedLocation": "tatooine",
+        "species": "rodian",
+        "eyeColor": "purple",
+        "skinColor": "green",
+        "affiliations": [
+          "Trade Federation"
+        ],
+        "born": -44,
+        "formerAffiliations": []
+      },
+      {
+        "id": 16,
+        "name": "Jabba Desilijic Tiure",
+        "height": 3.9,
+        "mass": 1358,
+        "gender": "male",
+        "homeworld": "tatooine",
+        "wiki": "http://starwars.wikia.com/wiki/Jabba_Desilijic_Tiure",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/7/7f/Jabba_SWSB.png",
+        "born": -600,
+        "died": 4,
+        "diedLocation": "tatooine",
+        "species": "hutt",
+        "eyeColor": "orange",
+        "skinColor": "green and tan",
+        "kajidic": "Desilijic",
+        "affiliations": [
+          "Hutt Clan",
+          "Grand Hutt Council",
+          "Jabba Desilijic Tiure's criminal empire",
+          "Galactic Republic",
+          "Shadow Collective",
+          "Crymorah syndicate",
+          "Galactic Empire"
+        ],
+        "formerAffiliations": []
+      },
+      {
+        "id": 18,
+        "name": "Wedge Antilles",
+        "height": 1.7,
+        "mass": 77,
+        "gender": "male",
+        "homeworld": "corellia",
+        "wiki": "http://starwars.wikia.com/wiki/Wedge_Antilles",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/6/60/WedgeHelmetless-ROTJHD.jpg",
+        "species": "human",
+        "hairColor": "brown",
+        "eyeColor": "brown",
+        "skinColor": "light",
+        "affiliations": [
+          "Galactic Empire",
+          "Alliance to Restore the Republic",
+          "Phoenix Cell",
+          "Massassi Group",
+          "Red Squadron",
+          "Rogue Squadron",
+          "New Republic",
+          "Phantom Squadron"
+        ],
+        "born": -21,
+        "formerAffiliations": []
+      },
+      {
+        "id": 19,
+        "name": "Jek Tono Porkins",
+        "height": 1.8,
+        "mass": 110,
+        "gender": "male",
+        "homeworld": "bestine",
+        "wiki": "http://starwars.wikia.com/wiki/Jek_Tono_Porkins",
+        "image": "https://vignette.wikia.nocookie.net/starwars/images/e/eb/JekPorkins-DB.png",
+        "died": 0,
+        "diedLocation": "yavin system",
+        "species": "human",
+        "skinColor": "light",
+        "affiliations": [
+          "Alliance to Restore the Republic",
+          "Tierfon Yellow Aces",
+          "Red Squadron",
+          "Massassi Group"
+        ],
+        "hairColor": "brown",
+        "eyeColor": "blue",
+        "formerAffiliations": []
+      }
+]

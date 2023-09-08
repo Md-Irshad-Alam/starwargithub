@@ -1,0 +1,125 @@
+
+.slider3-wrap{
+    width: 90vw;
+    margin: auto;
+    margin-top: 3rem;
+    
+
+
+}
+
+.slider-3-lbtn{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(63, 62, 62);
+    border-radius: 50%;
+    /* position: absolute; */
+    left: 2%;
+    bottom: 37%;
+    top: 8%;
+    font-size: 3rem;
+    margin: auto;
+    z-index: 99; 
+}
+.slider-3-rbtn{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(63, 62, 62);
+    border-radius: 50%;
+    /* position: absolute; */
+    right: 2%;
+    bottom: 37%;
+    top: 8%;
+    font-size: 3rem;
+    margin: auto;
+    z-index: 99; 
+}
+
+
+.line{
+    height: 2px;
+    border-top: 2px solid gray;
+    border-style: dotted;
+    background-color: rgb(100, 100, 100);
+    border-radius: 1px;
+}
+.slider3-body{
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ 
+}
+.slider3-content{
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* margin: 20px; */
+    display: inline-block;
+    vertical-align: top;
+    background-color: #424141;
+    height: fit-content;
+    width: 90%;
+
+}
+.slide3-content-body {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+#slider3-img{
+    
+    width: inherit;
+    width: -webkit-fill-available;
+    height: 44vh;
+    /* object-fit: cover; */
+    margin: auto;
+
+}
+.name-body{
+        color:  white;
+        font-weight: 400;
+        width: 100%;
+        height: 4rem;
+        background-color: rgb(38, 37, 37);
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+
+}
+
+  @media only screen and (max-width: 600px) {
+        .slider3-body{
+            width: 100%;
+            height: fit-content;
+            object-fit: cover;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            position: relative;
+            left: 15px;
+            right: 13px;
+        }
+        .forwar-btn{
+            color: wheat;
+            position: absolute;
+            right: 6%;
+            
+        }
+        .backword-btn{
+            color: wheat;
+            position: absolute;
+            z-index: 99;
+            left: 6%;
+        
+        }
+        #slider3-img{
+            width: 90vw;
+            width: -webkit-fill-available;
+            height: 50vh;
+            object-fit: unset;
+            
+        }
+      
+
+    }
+ 
