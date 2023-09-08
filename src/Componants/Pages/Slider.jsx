@@ -22,11 +22,11 @@ function Slider() {
       );
     };
   
-        // useEffect(()=>{
-        //     const interval = setInterval(nextImage , 3000)
-        //     return ()=> clearInterval(interval)
+        useEffect(()=>{
+            const interval = setInterval(nextImage , 3000)
+            return ()=> clearInterval(interval)
 
-        // },[])
+        },[])
   return (
    <>
     <div className="slider mb-2 ">

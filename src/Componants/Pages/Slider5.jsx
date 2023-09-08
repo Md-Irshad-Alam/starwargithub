@@ -8,10 +8,10 @@ function Slider5() {
 
     var itemsPerPage =3
 
-    if(width <= 375 || width <= 720){
+    if(width <600  && width >0){
       itemsPerPage = 1;
   }else{
-    itemsPerPage= 3
+    itemsPerPage = 3
   }
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;

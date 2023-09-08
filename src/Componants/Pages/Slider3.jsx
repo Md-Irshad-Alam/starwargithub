@@ -6,12 +6,12 @@ function Slider3() {
     const [currentPage, setCurrentPage] = useState(1);
     const [width, setwidht] = useState(0);
 
-    var itemsPerPage =0
+    var itemsPerPage =3
 
-    if(width <= 375 || width <= 720){
+    if(width <600 && width >0){
         itemsPerPage = 1;
     }else{
-      itemsPerPage= 3
+      itemsPerPage = 3
     }
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
@@ -34,8 +34,8 @@ function Slider3() {
         }
         window.addEventListener("resize", handlescroll)
         return ()=> window.addEventListener('resize', handlescroll)
-    },[width])
-        console.log(width)
+    },[])
+       
   const currentItems = data.slice(startIndex, endIndex);
   
   return (
